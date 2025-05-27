@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLM Creator - Modelli Linguistici Personalizzati</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-content">
+            <div class="brand">
+                <img src="logo.svg" class="logo" width="120" alt="SLM Creator Logo"/>
+                <h1>SLM Creator</h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-info-circle"></i> Chi Siamo</a></li>
+                    <li><a href="#mission"><i class="fas fa-bullseye"></i> Mission</a></li>
+                    <li><a href="#creator"><i class="fas fa-magic"></i> Model Creator</a></li>
+                </ul>
+            </nav>
+            <button class="cta-button mobile-cta">Inizia Ora <i class="fas fa-arrow-right"></i></button>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Trasforma il tuo business con modelli linguistici personalizzati</h1>
+            <p>Soluzioni AI su misura per le tue esigenze aziendali, installabili dove vuoi e senza competenze tecniche</p>
+            <div class="hero-cta">
+                <button class="cta-button primary" id="start-now">Inizia Ora <i class="fas fa-arrow-right"></i></button>
+                <button class="cta-button secondary" id="view-demo">Guarda Demo <i class="fas fa-play"></i></button>
+            </div>
+            <div class="trust-badges">
+                <span><i class="fas fa-shield-alt"></i> Sicurezza Garantita</span>
+                <span><i class="fas fa-check-circle"></i> Risultati Comprovati</span>
+                <span><i class="fas fa-clock"></i> Supporto Dedicato</span>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="hero-image.svg" alt="AI Language Model Illustration">
+        </div>
+    </section>
+
+    <main class="app-main">
+        <section id="about" class="about-section">
+            <h2 class="section-title">Chi Siamo</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>SLM Creator è un team di esperti in intelligenza artificiale e linguistica computazionale dedicato a rendere accessibile la potenza dei modelli linguistici personalizzati a tutte le aziende, indipendentemente dalle loro dimensioni o competenze tecniche.</p>
+                    <p>Il nostro team combina anni di esperienza nel campo dell'AI con una profonda comprensione delle esigenze aziendali, permettendoci di creare soluzioni che non sono solo tecnologicamente avanzate, ma anche pratiche e orientate ai risultati.</p>
+                    <p>Crediamo che ogni azienda meriti di beneficiare delle più recenti innovazioni nell'ambito dell'intelligenza artificiale, ed è per questo che abbiamo sviluppato un processo semplice e trasparente per la creazione di modelli linguistici personalizzati.</p>
+                </div>
+                <div class="about-image">
+                    <i class="fas fa-users-cog about-icon"></i>
+                </div>
+            </div>
+        </section>
+
+        <section id="mission" class="mission-section">
+            <h2 class="section-title">La Nostra Mission</h2>
+            <div class="mission-content">
+                <div class="mission-image">
+                    <i class="fas fa-rocket mission-icon"></i>
+                </div>
+                <div class="mission-text">
+                    <p>La nostra missione è democratizzare l'accesso ai modelli linguistici avanzati, permettendo a ogni azienda di sfruttare il potere dell'AI per migliorare i propri processi, prodotti e servizi.</p>
+                    <p>Ci impegniamo a:</p>
+                    <ul class="mission-list">
+                        <li><i class="fas fa-check"></i> Creare modelli linguistici personalizzati che rispondano esattamente alle esigenze specifiche dei nostri clienti</li>
+                        <li><i class="fas fa-check"></i> Garantire che i modelli siano facilmente installabili e utilizzabili nell'infrastruttura esistente del cliente</li>
+                        <li><i class="fas fa-check"></i> Fornire supporto consulenziale per la generazione di dataset di qualità quando necessario</li>
+                        <li><i class="fas fa-check"></i> Mantenere i più alti standard di sicurezza e privacy dei dati</li>
+                        <li><i class="fas fa-check"></i> Offrire un processo trasparente e collaborativo dall'inizio alla fine</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="creator" class="funnel-section">
+            <h2 class="section-title">Come Funziona</h2>
+            <div class="steps-container">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <i class="fas fa-lightbulb step-icon"></i>
+                    <h3>Definisci le tue esigenze</h3>
+                    <p>Utilizza la nostra interfaccia guidata per specificare i tuoi obiettivi aziendali</p>
+                    <button class="step-button" data-step="1">Inizia Qui</button>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <i class="fas fa-upload step-icon"></i>
+                    <h3>Gestione dei dati</h3>
+                    <p>Carica il tuo dataset o richiedi il nostro supporto consulenziale per crearlo</p>
+                    <button class="step-button" data-step="2">Scopri Come</button>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <i class="fas fa-cogs step-icon"></i>
+                    <h3>Addestramento del modello</h3>
+                    <p>Creiamo un modello linguistico personalizzato in base alle tue specifiche esigenze</p>
+                    <button class="step-button" data-step="3">Dettagli</button>
+                </div>
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <i class="fas fa-rocket step-icon"></i>
+                    <h3>Implementazione</h3>
+                    <p>Ricevi il tuo modello pronto per essere installato dove preferisci</p>
+                    <button class="step-button" data-step="4">Come Funziona</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <h2 class="section-title">Perché Scegliere SLM Creator</h2>
+            <div class="features-container">
+                <div class="feature-card">
+                    <i class="fas fa-fingerprint feature-icon"></i>
+                    <h3>Personalizzazione Completa</h3>
+                    <p>Modelli addestrati specificamente per le tue esigenze aziendali e il tuo settore</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-server feature-icon"></i>
+                    <h3>Installazione Flessibile</h3>
+                    <p>Installa il tuo modello on-premise, sul cloud o in ambiente ibrido</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-shield-alt feature-icon"></i>
+                    <h3>Sicurezza e Privacy</h3>
+                    <p>I tuoi dati rimangono sotto il tuo controllo, senza dipendenze da servizi esterni</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-database feature-icon"></i>
+                    <h3>Supporto per i Dataset</h3>
+                    <p>Assistenza consulenziale per la creazione di dataset di qualità per l'addestramento</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-code feature-icon"></i>
+                    <h3>Facile Integrazione</h3>
+                    <p>API semplici e documentazione completa per integrare il modello nei tuoi sistemi</p>
+                </div>
+                <div class="feature-card">
+                    <i class="fas fa-headset feature-icon"></i>
+                    <h3>Supporto Continuo</h3>
+                    <p>Assistenza tecnica e consulenza per ottimizzare l'utilizzo del tuo modello</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="data-importance-section">
+            <h2 class="section-title">L'Importanza dei Dataset</h2>
+            <div class="data-content">
+                <div class="data-text">
+                    <p>Un modello linguistico è efficace quanto i dati su cui viene addestrato. Per questo motivo, la qualità e la pertinenza del dataset sono fondamentali per il successo del tuo progetto.</p>
+                    <p>Offriamo due opzioni per garantire che il tuo modello sia addestrato su dati ottimali:</p>
+                    <div class="data-options-info">
+                        <div class="data-option-info">
+                            <h3><i class="fas fa-upload"></i> Utilizza i tuoi dati</h3>
+                            <p>Se disponi già di un dataset strutturato e rappresentativo delle tue esigenze, puoi caricarlo direttamente sulla nostra piattaforma. Ti guideremo nel processo per assicurarci che i dati siano nel formato corretto e di qualità adeguata.</p>
+                        </div>
+                        <div class="data-option-info">
+                            <h3><i class="fas fa-hands-helping"></i> Supporto consulenziale</h3>
+                            <p>Se non disponi di un dataset adeguato o hai bisogno di assistenza per crearlo, il nostro team di esperti può aiutarti a raccogliere, strutturare e preparare i dati necessari per addestrare un modello efficace per il tuo caso d'uso specifico.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="cta-content">
+                <h2>Pronto a trasformare il tuo business?</h2>
+                <p>Inizia oggi il tuo percorso verso l'innovazione con modelli linguistici personalizzati</p>
+                <button class="cta-button primary large" id="final-cta">Contattaci <i class="fas fa-arrow-right"></i></button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="logo.svg" class="footer-logo" width="100" alt="SLM Creator Logo">
+                <p>Soluzioni AI personalizzate per ogni esigenza aziendale</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h4>Prodotto</h4>
+                    <ul>
+                        <li><a href="#">Caratteristiche</a></li>
+                        <li><a href="#">Casi d'uso</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Azienda</h4>
+                    <ul>
+                        <li><a href="#about">Chi siamo</a></li>
+                        <li><a href="#mission">Mission</a></li>
+                        <li><a href="#">Contatti</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Legale</h4>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Termini di Servizio</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2023 SLM Creator. Tutti i diritti riservati.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal per la demo -->
+    <div class="modal" id="demo-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Guarda la Demo</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="about:blank" title="Demo Video" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal per il wizard di creazione -->
+    <div class="modal" id="wizard-modal">
+        <div class="modal-content wizard">
+            <span class="close-modal">&times;</span>
+            <div class="wizard-header">
+                <h2>Crea il tuo Modello Personalizzato</h2>
+                <div class="wizard-progress">
+                    <div class="progress-step active" data-step="1">1</div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="2">2</div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="3">3</div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="4">4</div>
+                </div>
+            </div>
+            <div class="wizard-body">
+                <div class="wizard-step active" data-step="1">
+                    <h3>Definisci le tue esigenze</h3>
+                    <div class="form-group">
+                        <label for="business-goal">Obiettivo aziendale</label>
+                        <select id="business-goal" required>
+                            <option value="" disabled selected>Seleziona un obiettivo</option>
+                            <option value="customer-service">Migliorare il servizio clienti</option>
+                            <option value="content-creation">Generazione di contenuti</option>
+                            <option value="data-analysis">Analisi dati e reporting</option>
+                            <option value="process-automation">Automazione processi</option>
+                            <option value="other">Altro (specificare)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="industry">Settore</label>
+                        <select id="industry" required>
+                            <option value="" disabled selected>Seleziona un settore</option>
+                            <option value="finance">Finanza</option>
+                            <option value="healthcare">Sanità</option>
+                            <option value="retail">Retail</option>
+                            <option value="manufacturing">Manifatturiero</option>
+                            <option value="technology">Tecnologia</option>
+                            <option value="other">Altro</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="specific-needs">Descrivi le tue esigenze specifiche</label>
+                        <textarea id="specific-needs" rows="4" placeholder="Descrivi in dettaglio come vorresti utilizzare il modello linguistico..."></textarea>
+                    </div>
+                </div>
+                <div class="wizard-step" data-step="2">
+                    <h3>Gestione dei dati</h3>
+                    <div class="data-options">
+                        <div class="data-option">
+                            <input type="radio" id="upload-data" name="data-source" value="upload">
+                            <label for="upload-data">
+                                <i class="fas fa-upload"></i>
+                                <span>Carica i tuoi dati</span>
+                                <p>Hai già dati strutturati pronti per l'addestramento</p>
+                            </label>
+                        </div>
+                        <div class="data-option">
+                            <input type="radio" id="support-data" name="data-source" value="support">
+                            <label for="support-data">
+                                <i class="fas fa-hands-helping"></i>
+                                <span>Richiedi supporto</span>
+                                <p>Ti aiutiamo noi a raccogliere e strutturare i dati necessari</p>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="upload-container" id="upload-container">
+                        <div class="dropzone">
+                            <i class="fas fa-file-upload"></i>
+                            <p>Trascina i file qui o <span>sfoglia</span></p>
+                            <input type="file" id="file-upload" multiple hidden>
+                        </div>
+                        <div class="uploaded-files">
+                            <!-- I file caricati appariranno qui -->
+                        </div>
+                    </div>
+                </div>
+                <div class="wizard-step" data-step="3">
+                    <h3>Specifiche del modello</h3>
+                    <div class="form-group">
+                        <label for="model-size">Dimensione del modello</label>
+                        <select id="model-size" required>
+                            <option value="" disabled selected>Seleziona una dimensione</option>
+                            <option value="small">Base (adatto per task semplici)</option>
+                            <option value="medium">Intermedio (bilanciato)</option>
+                            <option value="large">Avanzato (per task complessi)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="deployment">Ambiente di deployment</label>
+                        <select id="deployment" required>
+                            <option value="" disabled selected>Seleziona un ambiente</option>
+                            <option value="cloud">Cloud</option>
+                            <option value="on-premise">On-premise</option>
+                            <option value="hybrid">Ibrido</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Funzionalità richieste</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="feature-multilingual" name="features[]" value="multilingual">
+                                <label for="feature-multilingual">Supporto multilingua</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="feature-api" name="features[]" value="api">
+                                <label for="feature-api">API REST</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="feature-batch" name="features[]" value="batch">
+                                <label for="feature-batch">Elaborazione batch</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="feature-realtime" name="features[]" value="realtime">
+                                <label for="feature-realtime">Elaborazione in tempo reale</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wizard-step" data-step="4">
+                    <h3>Riepilogo e Conferma</h3>
+                    <div class="summary-container">
+                        <div class="summary-section">
+                            <h4>Dettagli Progetto</h4>
+                            <div class="summary-item">
+                                <span>Obiettivo:</span>
+                                <span id="summary-goal"></span>
+                            </div>
+                            <div class="summary-item">
+                                <span>Settore:</span>
+                                <span id="summary-industry"></span>
+                            </div>
+                        </div>
+                        <div class="summary-section">
+                            <h4>Tempi Stimati</h4>
+                            <div class="summary-item">
+                                <span>Sviluppo:</span>
+                                <span id="summary-time">2-4 settimane</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="terms-container">
+                        <input type="checkbox" id="terms-checkbox">
+                        <label for="terms-checkbox">Accetto i <a href="#">Termini di Servizio</a> e la <a href="#">Privacy Policy</a></label>
+                    </div>
+                </div>
+            </div>
+            <div class="wizard-footer">
+                <button class="wizard-button" id="wizard-prev" disabled>Indietro</button>
+                <button class="wizard-button primary" id="wizard-next">Avanti</button>
+                <button class="wizard-button primary" id="wizard-submit" style="display: none;">Conferma</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
